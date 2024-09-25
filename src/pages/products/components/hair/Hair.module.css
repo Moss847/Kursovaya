@@ -1,0 +1,19 @@
+.title {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #229216;
+}
+.hair {
+    padding: 20px 0 40px;
+}
+.description {
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+.wrapper {
+    max-width: 990px;
+    padding: 0 30px;
+    margin: 0 auto;
+}

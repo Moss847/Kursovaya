@@ -1,0 +1,6 @@
+export const ROOT_ROUTE = '/'
+export const ABOUT_ROUTE = '/about'
+export const CERTIFICATES_ROUTE = '/certificates'
+export const CONTACTS_ROUTE = '/contacts'
+export const PRODUCTS_ROUTE = '/products'
+export const SERVICES_ROUTE = '/services'

@@ -1,0 +1,29 @@
+.footer {
+    background-color: white;
+    padding: 20px 30px 50px;
+    max-width: 990px;
+    text-align: center;
+    margin: 0 auto;
+}
+.title {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.contactItem img {
+    width: 21px;
+    height: 21px;
+    margin-bottom: 12px;
+    margin: 0 auto;
+}
+
+.contactItem {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+}

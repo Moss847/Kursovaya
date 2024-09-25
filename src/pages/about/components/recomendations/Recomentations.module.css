@@ -1,0 +1,43 @@
+.recomendations {
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+}
+.wrapper {
+    max-width: 990px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.title span {
+    color: #229216;
+}
+
+.mainPart {
+    display: flex;
+    gap: 20px;
+}
+
+.mainPart img {
+    height: 400px;
+}
+
+.description {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.productName {
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+
+.productName span {
+    color: #229216;
+}

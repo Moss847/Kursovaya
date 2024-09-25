@@ -1,0 +1,63 @@
+.firstCut {
+    background-color: white;
+    padding-top: 40px;
+}
+.wrapper {
+    max-width: 990px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.content {
+    padding-bottom: 40px;
+}
+.heading {
+    font-size: 55px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #229216;
+}
+
+.description {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.prices {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.priceItemPrice {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.priceItemText {
+    font-size: 20px;
+}
+
+.priceItemText span {
+    font-weight: bolder;
+}
+
+.image {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.image img {
+    height: 440px;
+}
+
+.button {
+    margin-top: 30px;
+}

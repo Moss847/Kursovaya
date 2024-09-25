@@ -1,0 +1,16 @@
+:root {
+    --primary: #229216;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+ul,
+li {
+    list-style-type: none;
+}

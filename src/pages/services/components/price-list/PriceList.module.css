@@ -1,0 +1,24 @@
+.wrapper {
+    max-width: 990px;
+    padding: 0 30px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.gridItem {
+    display: grid;
+    grid-template-columns: 65% auto auto;
+    margin-bottom: 6px;
+}
+.gridItem span span {
+    color: #229216;
+}
+.gridItem:first-of-type {
+    margin-bottom: 40px;
+}
+.priceList {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+}

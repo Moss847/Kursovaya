@@ -1,0 +1,64 @@
+.list {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );;
+}
+.list img {
+    height: 200px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.listTitle {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.button {
+    padding: 5px 13px;
+    background-color: none;
+    border: 2px solid #229216;
+    width: fit-content;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.listItem-inverted {
+    color: white;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    background-color: #00000054;
+}
+.modalContent {
+    background-color: white;
+    position: relative;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.modal h2 {
+    font-size: 40px;
+    color: #229216;
+    margin-bottom: 22px;
+}
+
+.modal p {
+    font-size: 40px;
+    margin-bottom: 22px;
+    color: black;
+    font-size: 15px;
+}
